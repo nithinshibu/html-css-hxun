@@ -1,0 +1,75 @@
+/* External CSS
+
+h3 {
+  color: brown;
+} */
+
+/* h1 {
+  color: blue;
+} */
+
+/* h2 { */
+/* color: rgb(255, 0, 105);  */
+/* color: rgba(255, 0, 105, 0.5); */
+/* } */
+
+/* h3 {
+  color: #3cb371;
+} */
+
+h1 {
+  background-color: teal;
+  color: white;
+}
+
+/* section {
+  width: 500px;
+  height: 500px;
+  background-color: teal;
+} */
+
+/* % will be taking from the parent element in this case <section> */
+/* div {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+} */
+
+/* <p> is contained inside a <section> and it has default font size of 16 px and in <p> if we did 2em then it means 2 * 16=32 px */
+
+/* section { */
+/* default size */
+/* font-size: 16px; */
+/* } */
+/* 
+p {
+  font-size: 2em;
+} */
+
+/* rem will only case about the root element */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  /* default size */
+  font-size: 32px;
+}
+
+html {
+  font-size: 20px;
+}
+
+/* this will be 40px as <html> 20 px * 2 = 40px */
+p {
+  font-size: 2rem;
+}
+
+div {
+  width: 100vw;
+  height: 50vh;
+  background-color: red;
+}
