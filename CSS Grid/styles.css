@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background: #222222;
+    padding: 20px;
+    height: 100vh;
+    /* Grid related css */
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px; */
+    /* grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 100px); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.s {
+    padding: 20px;
+    background: #545454;
+    text-align: center;
+    color: #fff;
+}
