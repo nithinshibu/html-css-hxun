@@ -1,0 +1,11 @@
+body{
+    background: #000;
+
+}
+
+h1{
+    text-shadow: 2px 2px 2px #f00;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
