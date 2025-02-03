@@ -1,0 +1,15 @@
+*{
+    margin:0;
+}
+
+div{
+    /* linear-gradient(to left,rgba(0, 0, 255, 0.37) */
+    /* linear-gradient(to top,rgba(0, 0, 255, 0.37) */
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.37),rgba(0, 128, 0, 0.356)),url("https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    background-image: radial-gradient(rgba(0, 0, 255, 0.37),rgba(0, 128, 0, 0.356)),url("https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
