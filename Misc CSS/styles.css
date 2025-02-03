@@ -16,9 +16,40 @@ h1{
 
 /* In this case both .parent and .child will have orange due to the inheritance */
 /* Only typography will be inherited */
-.parent {
+/* .parent {
     color: orange;
     font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
+} */
+
+
+.container {
+    background: #5c5353;
+    width: 90%;
+    height: 500px;
+}
+
+.d {
+    width: 100px;
+    height: 100px
+}
+
+.one {
+    background: red;
+    position: relative;
+    left: 100px;
+}
+
+.two {
+    background: blue;
+    position: absolute;
+    left: 200px;
+}
+
+.three {
+    background: green;
+    /* position: fixed; */
+    position: sticky;
+    top: 200px
 }
