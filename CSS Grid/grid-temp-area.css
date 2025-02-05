@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background: #222222;
+    padding: 20px;
+    height: 100vh;
+    /* Grid related css */
+    display: grid;
+    /* grid-template-columns: repeat(4, 100px); */
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-gap: 10px;
+    /* 1stheader -> h , 2ndheader --> h , 3rd header --> h , 4th header --> h */
+    /* m -> main , s-> section , a-> aside f--> footer */
+    /* here period (.) means space between elements */
+    /* grid-template-areas:
+        "h h h h"
+        "m m m m"
+        "s s . a"
+        "f f f f"; */
+    grid-template-areas:
+        "h h h h h"
+        "s s m m m"
+        "a a m m m"
+        "f f f f f";
+
+
+}
+
+header {
+    grid-area: h;
+}
+
+main {
+    grid-area: m;
+}
+
+section {
+    grid-area: s;
+}
+
+aside {
+    grid-area: a;
+}
+
+footer {
+    grid-area: f;
+}
+
+.s {
+    padding: 20px;
+    background: #545454;
+    text-align: center;
+    color: #fff;
+}
