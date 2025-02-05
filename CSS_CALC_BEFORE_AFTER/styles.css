@@ -20,7 +20,30 @@
 } */
 
 
-
+/* 
 header :is(h1, h2) {
     color: red;
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 4rem;
+}
+
+p::before {
+    content: "Hello,";
+    background: red;
+    font-size: 2rem;
+}
+
+p::after {
+    content: "*";
+    color: red;
+    
 }
