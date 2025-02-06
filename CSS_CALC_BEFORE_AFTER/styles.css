@@ -45,5 +45,5 @@ p::before {
 p::after {
     content: "*";
     color: red;
-    
+
 }
