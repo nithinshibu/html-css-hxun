@@ -35,3 +35,7 @@ body {
     color: #fff;
     cursor: pointer;
 }
+
+.btn-secondary {
+    color: #ffff00;
+}

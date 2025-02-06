@@ -1,0 +1,75 @@
+/* transform property will allow us to apply 2D or 3D transformation to an element */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .container>div {
+    width: 200px;
+    height: 200px;
+    background-color: cyan; */
+/* transform: translateY(-200px); */
+/* transform: translateX(200px); */
+/* transform: translateX(200px); */
+/* first value for the x axis and the second value for the y axis */
+/* transform: translate(200px, -100px); */
+/* transform: rotate(45deg); */
+/* transform: scale(2); */
+
+
+/* } */
+
+/* .container>a {
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 10px 20px;
+    color: brown;
+    /* Transition */
+/* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.container>a:hover {
+    background: brown;
+    color: white;
+} */
+
+
+.container>div {
+    width: 300px;
+    height: 300px;
+    background: darkblue;
+    /* Animation */
+    animation-name: myAnimationName;
+    animation-duration: 4s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in;
+
+}
+
+
+@keyframes myAnimationName {
+
+    /* Frame 1 animation start from 0% */
+    0% {
+        transform: scale(2);
+    }
+
+    /* Frame 2 */
+    25% {
+        transform: scale(0.2);
+        background: teal;
+        transform: skew(10deg);
+    }
+
+    /* Frame 2 */
+    50% {
+        border-radius: 50%;
+        background: blue;
+        transform: skew(40deg);
+    }
+}
